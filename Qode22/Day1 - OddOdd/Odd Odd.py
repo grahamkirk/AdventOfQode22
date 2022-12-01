@@ -5,6 +5,3 @@ sys.path.append(os.path.dirname(SCRIPT_DIR))
 
 from MYPYTHONLIBRARY.myfunctions import *
 
-print("is prime: ", isprime(5))
-
-print("fibonacci ", fibonacciNumber(2021))
