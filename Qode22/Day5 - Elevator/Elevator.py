@@ -13,7 +13,7 @@ commands = ''
 #OPEN AND READ THE MESSAGE FILE DISCARDING THE CARRAGE RETURNS AND STORE IN A STRING
 with open(os.path.join(sys.path[0], codeFile), "r") as codes:
     commands = codes.read()
-    print(commands)    #print the file that was loaded to check that it all loads properly
+    #print(commands)    #print the file that was loaded to check that it all loads properly
     codes.close()
     
 def navigateFloors(commands) -> int:
